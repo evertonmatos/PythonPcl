@@ -14,7 +14,7 @@ Please, contact us at <info@mchobby.be>
 History:
   08 feb 2015 - Dominique - v 0.1 created from pypcl.py .
 """
-from pypcl import *
+from pypcl.pypcl import *
 import socket
 import encodings  
 

@@ -14,7 +14,7 @@ Please, contact us at <info@mchobby.be>
 History:
   08 feb 2015 - Dominique - v 0.1 created, not yet tested.
 """
-from pypcl import *
+from pypcl.pypcl import *
 import serial
 import encodings  
 

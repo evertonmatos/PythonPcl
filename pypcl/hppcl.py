@@ -19,7 +19,7 @@ History:
   01 feb 2015 - Dominique - v 0.1 (première release)
   05 feb 2015 - Dominique - Changing structure of PRINTER_SYMBOL_SET
 """
-from pypcl import PclDocument, PyPclError, PCL_DATA_TYPE 
+from pypcl.pypcl import PclDocument, PyPclError, PCL_DATA_TYPE
 
 class HpPclDocument( PclDocument ):
 	""" Class with helper function to generate PCL content for

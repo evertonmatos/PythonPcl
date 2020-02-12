@@ -19,7 +19,7 @@ History:
   07 feb 2015 - Dominique - v 0.1 (première release)
 """
 
-from pypcl import *
+from pypcl.pypcl import *
 
 class ZplDocument( PclDocument ):
 	""" Class with helper function to generate ZPL content for
@@ -32,7 +32,7 @@ class ZplDocument( PclDocument ):
 	#PRINTER_CR   = chr(13)         # return at the begin of the same line
 	PRINTER_ESC  = chr(0x5E)        # ^ escape command for ZPL
 
-	# Font Information - coming from ZPL II programming Guide, pg 373
+	# Font Information - coming from pypcl.zpl II programming Guide, pg 373
 	# The tuple is formatted as follow
 	#    (Heigh,Width) - default Height and Height in dots
 	#    [types]       - list of types U=uppercase,L=Lowercase, D=descenders (goes below the base line)
