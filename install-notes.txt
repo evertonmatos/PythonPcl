@@ -19,6 +19,11 @@ Project source: http://www.scipy.org/install.html
 
 sudo apt-get install python-numpy python-scipy python-matplotlib
 
+-- Compile and install --
+pip install wheel
+python setup.py sdist
+pip install dist/pypcl-0.0.0.tar.gz
+
 === Needed Python Libs ===
 Use pip to install the following libs
   * pyserial  -- needed to serial communication over USB.
